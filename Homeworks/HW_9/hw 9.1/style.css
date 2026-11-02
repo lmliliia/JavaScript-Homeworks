@@ -1,0 +1,51 @@
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    width: 420px;
+    padding: 12px;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+
+.course-title,
+.course-monthDuration,
+.course-hour,
+.course-modules {
+    border: 2px solid #0b3d7a;
+    padding: 8px;
+}
+
+.course-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.course-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.course-monthDuration {
+    flex: 1;
+}
+
+.course-hour {
+    flex: 2;
+}
+
+.course-modules ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.course-modules li {
+    border: 2px solid #0b3d7a;
+    padding: 4px 8px;
+    margin-bottom: 6px;
+}
